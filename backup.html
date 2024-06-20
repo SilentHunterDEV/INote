@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html manifest = "ma.appcache">
+<html>
+<head>
+	<title>Backup</title>
+	<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+</head>
+<body>
+	<button onclick=document.location='index.html'>back and refresh</button>
+	<button onclick=del() style="color: #ff0000">delete</button>
+	<p>
+		<textarea id=text rows=18 style="width: 100%"></textarea>
+		<button onclick=cle()>clear</button> 
+		<button onclick=imp()>import</button> 
+		<button onclick=exp()>export</button>
+		<button onclick=sel()>highlight</button>
+		<button onclick=copy()>copy в buffer</button>
+	</p>
+	<input type='file' onchange='openFile(event)'/>
+</body>
+</html>
+<script src="backup.js"></script>
