@@ -1,4 +1,4 @@
-# auto-notes
+# INote
 Simple HTML5 notes application (WebApp) for iPhone 5s in offline mode
 
 ![](_temp.png)
