@@ -1,5 +1,5 @@
 function del(){
-	if(confirm("Delete all notes")){
+	if(confirm("Delete all Notes")){
 		localStorage.clear();
 	}
 }
